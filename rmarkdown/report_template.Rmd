@@ -1,0 +1,63 @@
+---
+title: 'Individual report for'
+subtitle: '`r ind_data[,8]`'
+date: "`r Sys.Date()`"
+output: 
+  pdf_document: 
+    number_sections: yes
+    latex_engine: xelatex
+    keep_tex: true
+fontsize: 10pt
+classoption: a4paper
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE, dev="cairo_pdf")
+```
+
+# Individual description
+
+Name: `r ind_data[,8]`
+
+Species: `r as.character(unlist(ind_data[,1]))`
+
+Sex: `r as.character(unlist(ind_data[,7]))`
+
+Place of residence: `r as.character(unlist(ind_data[,2]))`
+
+# Bill length
+
+My bill length: `r format(as.numeric(ind_data[,3]), nsmall = 2)` mm
+
+```{r, echo=FALSE, fig.align='right',warnings = FALSE, fig.height=2.5}
+    plot.graph(1)
+```
+
+\newpage
+
+# Bill depth
+
+My bill depth: `r format(as.numeric(ind_data[,4]), nsmall = 2)` mm
+
+```{r, echo=FALSE, fig.align='right',warnings = FALSE, fig.height=2.5}
+    plot.graph(2)
+```
+
+# Flipper lenght
+
+My flipper length: `r format(as.numeric(ind_data[,5]), nsmall = 0)` mm
+
+```{r, echo=FALSE, fig.align='right',warnings = FALSE, fig.height=2.5}
+    plot.graph(3)
+```
+
+\newpage
+
+# Weight
+
+My weight: `r format(as.numeric(ind_data[,6]), nsmall = 0)` g
+
+```{r, echo=FALSE, fig.align='right',warnings = FALSE, fig.height=2.5}
+    plot.graph(4)
+```
