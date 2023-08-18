@@ -1,6 +1,7 @@
 # R Individual Report Automation
 ![GitHub](https://img.shields.io/github/license/joaojcorreia/R-individual-report-automation?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/joaojcorreia/R-individual-report-automation?style=flat-square)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8259951.svg)
 
 
 ## Description
