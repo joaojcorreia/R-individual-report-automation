@@ -1,5 +1,7 @@
 # R Individual Report Automation
-![GitHub License](https://img.shields.io/badge/license-MIT-green)
+![GitHub](https://img.shields.io/github/license/joaojcorreia/R-individual-report-automation?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/joaojcorreia/R-individual-report-automation?style=flat-square)
+
 
 ## Description
 
